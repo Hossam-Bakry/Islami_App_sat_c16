@@ -24,6 +24,7 @@ class QuranView extends StatelessWidget {
         ),
       ),
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Image.asset(AppAssets.islamiLogo),
           Padding(
@@ -50,6 +51,11 @@ class QuranView extends StatelessWidget {
                 ),
               ),
             ),
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(
+                horizontal: 20.0, vertical: 5.0),
+            child: Text("Most Recently", style: theme.textTheme.bodyLarge),
           ),
         ],
       ),
