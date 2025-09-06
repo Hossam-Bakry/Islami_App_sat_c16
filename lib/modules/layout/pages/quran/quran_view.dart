@@ -6,6 +6,7 @@ import 'package:islami_app_c16_sat/core/theme/color_pallete.dart';
 /// * unVersioned
 ///
 /// 1- commit
+/// 2- push
 
 class QuranView extends StatelessWidget {
   const QuranView({super.key});
