@@ -11,4 +11,9 @@ abstract class AppAssets {
   static const String tasbehIcn = "assets/icons/tasbeh_icn.png";
   static const String radioIcn = "assets/icons/radio_icn.png";
   static const String timeIcn = "assets/icons/time_icn.png";
+  static const String quranCardImg = "assets/images/quran_card_img.png";
+  static const String quranNumberIcn = "assets/icons/quran_number_icn.png";
+  static const String leftCornerImg = "assets/images/left_corner_img.png";
+  static const String rightCornerImg = "assets/images/right_corner_img.png";
+  static const String bottomImg = "assets/images/bottom_img.png";
 }
